@@ -24,7 +24,8 @@ const port = Number(process.env.PORT) || 5000;
 const defaultOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
-  "http://localhost:5175",
+  "https://merkova.vercel.app",
+  "https://merkovaa.vercel.app",
 ];
 const allowedOrigins = (
   process.env.CORS_ORIGINS || defaultOrigins.join(",")
